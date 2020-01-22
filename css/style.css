@@ -90,6 +90,25 @@ background-color: #22191a;
 .vine-hover:hover{
     opacity: 1;
 }
+.full-darkening{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.vine-desks{
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    background-color: white;
+}
+.vine-desk{
+    display: none;
+}
+
 .happy-client-back{
     background-image: url("../img/happy-client-back.png");
     background-size: cover;
@@ -115,6 +134,9 @@ background-color: #22191a;
         display: none;
     }
     .training-image{
+        display: none;
+    }
+    .pop-up-image{
         display: none;
     }
 }
