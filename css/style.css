@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "DejaVu Sans", "GreatVibes";
+    src: url("../fonts/DejaVuSans.ttf"), url("../fonts/GreatVibes-Regular.otf");
+}
+@font-face {
+    font-family: "GreatVibes";
+    src: url("../fonts/GreatVibes-Regular.otf");
+}
+:root {
+    font-size: calc(0.5vw + 7px);
+}
+.fjalla-one-font{
+    font-family: 'Fjalla One', sans-serif;
+}
+.dejaVu-sans-font{
+    font-family: 'DejaVu Sans', serif;
+}
+.great-vibes{
+    font-family: 'GreatVibes', serif;
+    color: red;
+}
+
+.banner{
+    background-image: url("../img/header-back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vw;
+}
+.nav .nav-item{
+    color: white;
+    font-size: 1.9em;
+}
+.logo-image{
+    height: 12vw;
+}
+a:hover {
+    text-decoration-color: red;
+    text-decoration-line: underline;
+}
+.red-button{
+    background-color: #ff1a2c;
+}
+.contact-us-button{
+    margin-top: 22vw;
+}
+.sliced-meat-img-left{
+    background-image: url("../img/meat-left.png");
+}
+.sliced-meat-img-right{
+    background-image: url("../img/meat-right.png");
+}
+.brown-back{
+background-color: #22191a;
+}
+.car-item{
+    padding: 0px;
+}
+.scroll-ico{
+    color: red;
+    opacity: 1;
+    font-size: 2em;
+    text-shadow: 01px 01px black;
+    margin-top: 8em;
+    height: 50px;
+    width: 50px;
+}
+.carousel-indicators{
+    margin-bottom: -2em;
+}
+.training-image{
+    background-image: url("../img/training-img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.vine-hover{
+    opacity: 0;
+    position: absolute;
+    top: -2px;
+    left: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 370px;
+}
+.vine-read-button{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    width: 40%;
+}
+.vine-hover:hover{
+    opacity: 1;
+}
+.happy-client-back{
+    background-image: url("../img/happy-client-back.png");
+    background-size: cover;
+    padding: 0px;
+}
+.darkening{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.happy-client-scroll-ico{
+    color: red;
+    opacity: 1;
+    font-size: 2em;
+    text-shadow: 01px 01px black;
+    margin-top: 13.5em;
+    height: 50px;
+    width: 50px;
+}
+.footer-logo{
+    height: 8em;
+}
+@media (max-width: 1000px) {
+    .logo-image-block{
+        display: none;
+    }
+    .training-image{
+        display: none;
+    }
+}
+@media (max-width: 1500px) {
+    .sliced-meat-img-left, .sliced-meat-img-right{
+        display: none;
+    }
+}
